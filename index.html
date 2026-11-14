@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hasnain Abbas Dar | Data Science Student</title>
+<meta name="description" content="Portfolio of Hasnain Abbas Dar, BS Data Science student at The Islamia University of Bahawalpur, exploring AI and machine learning.">
+<meta property="og:title" content="Hasnain Abbas Dar | Data Science Student">
+<meta property="og:description" content="Where data meets intelligence.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pre" aria-hidden="true"><i></i></div><div id="prog"></div><div id="cur"></div>
+<nav aria-label="Main"><div class="wrap"><a class="logo" href="#hero">Hasnain Abbas Dar</a>
+<div class="links" id="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#github">GitHub</a><a href="#contact">Contact</a></div>
+<div style="display:flex;gap:.5rem"><button class="ib" id="theme" aria-label="Toggle theme">◐</button><button class="ib" id="burger" aria-label="Open menu" aria-expanded="false">☰</button></div></div></nav>
+<main>
+<section id="hero"><canvas id="net" aria-hidden="true"></canvas><div class="wrap">
+<h1>Hi, I’m <span>Hasnain Abbas Dar.</span></h1>
+<p class="sub">Exploring the World of Data Science, Artificial Intelligence &amp; Machine Learning.</p>
+<p class="mut">I’m a BS Data Science student at The Islamia University of Bahawalpur, passionate about transforming data into meaningful insights and building intelligent solutions through technology.</p>
+<div class="cta"><a class="btn p mag" href="#projects">View My Projects</a><a class="btn mag" href="#contact">Let’s Connect</a><a class="btn mag" id="cv" href="#">Download CV</a></div></div><div class="scroll" aria-hidden="true"></div></section>
+
+<section id="about"><div class="wrap"><h2 class="rv">Who Am I?</h2><div class="about rv">
+<div class="avatar" id="avatar"><span>Profile photo placeholder<br>Set <code>photo</code> in CONFIG</span></div>
+<div><p id="aboutTxt"></p><div class="grid g2" id="aboutCards" style="margin-top:1.4rem"></div></div></div></div></section>
+
+<section id="education"><div class="wrap"><h2 class="rv">Education</h2><div class="tl rv" id="edu"></div></div></section>
+
+<section id="skills"><div class="wrap"><h2 class="rv">Technical skills</h2>
+<p class="mut rv">These are skills I’m learning and using, not verified proficiency levels. Use Edit skills to add or remove items.</p>
+<button class="btn rv" id="editSk" style="margin:1rem 0 1.4rem">Edit skills</button><div class="grid g2" id="skillGrid"></div></div></section>
+
+<section id="projects"><div class="wrap"><h2 class="rv">Turning Data Into Intelligence.</h2>
+<div class="filters" id="filters" role="group" aria-label="Filter projects"></div><div class="grid g3" id="projGrid"></div></div></section>
+
+<section id="journey"><div class="wrap"><h2 class="rv">My Journey</h2><div class="tl rv" id="jr"></div></div></section>
+
+<section id="interests"><div class="wrap"><h2 class="rv">What I’m interested in</h2><div class="grid g3" id="intGrid"></div></div></section>
+
+<section id="github"><div class="wrap"><h2 class="rv">GitHub</h2>
+<p class="mut rv">Live repositories and statistics need a network call to GitHub. They are not shown here, so nothing is made up. Everything lives on my profile.</p>
+<div class="cta"><a class="btn p" id="ghBtn" target="_blank" rel="noopener">Open GitHub profile</a></div>
+<div class="card rv" style="margin-top:1.6rem"><h3>Contribution graph</h3><p>Placeholder. Add a contribution image or embed in CONFIG once you want it public.</p></div>
+<div class="grid g3" id="repos" style="margin-top:1rem"></div></div></section>
+
+<section id="contact"><div class="wrap"><h2 class="rv">Let’s Build Something Intelligent Together.</h2>
+<div class="chips" id="contactLinks" style="margin-bottom:1.8rem"></div>
+<form id="form" novalidate><div><label for="n">Name</label><input id="n" autocomplete="name"><div class="err" id="en"></div></div>
+<div><label for="e">Email</label><input id="e" type="email" autocomplete="email"><div class="err" id="ee"></div></div>
+<div><label for="s">Subject</label><input id="s"><div class="err" id="es"></div></div>
+<div><label for="m">Message</label><textarea id="m" rows="5"></textarea><div class="err" id="em"></div></div>
+<button class="btn p" type="submit">Send message</button><div id="status" role="status"></div></form></div></section>
+</main>
+<footer><div class="wrap">© <span id="yr"></span> Hasnain Abbas Dar. Built with curiosity and a lot of data.</div></footer>
+<button class="ib" id="top" aria-label="Back to top">↑</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
